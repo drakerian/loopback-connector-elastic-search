@@ -1,0 +1,23 @@
+{
+    "name": "loopback-connector-elastic-search-search",
+    "version": "0.0.1",
+    "description": "Connect LoopBack to Elasticsearch engine",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "keywords": [
+        "loopback",
+        "elastic",
+        "loopback-connector",
+        "connector"
+    ],
+    "author": {
+        "name": "Drakerian"
+    },
+    "dependencies": {
+        "async": "^0.9.0",
+        "elasticsearch": "^2.4.3",
+        "loopback-connector": "^1.1.1"
+    }
+}

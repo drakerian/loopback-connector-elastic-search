@@ -1,0 +1,15 @@
+{
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    },
+    "elastic-test": {
+        "host": "127.0.0.1",
+        "port": 9200,
+        "name": "elastic-test",
+        "connector": "elastic-search",
+        "log": "trace",
+        "defaultSize": 50,
+        "index": "shakespeare"
+    }
+}

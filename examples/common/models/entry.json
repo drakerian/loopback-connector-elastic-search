@@ -1,0 +1,29 @@
+{
+    "name": "entry",
+    "plural": "entries",
+    "properties": {
+        "line_id": {
+            "type": "number"
+        },
+        "play_name": {
+            "type": "string"
+        },
+        "speech_number": {
+            "type": "number"
+        },
+        "line_number": {
+            "type": "string",
+            "required": true
+        },
+        "speaker": {
+            "type": "string"
+        },
+        "text_entry": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": []
+}
