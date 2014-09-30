@@ -12,12 +12,26 @@
         "loopback-connector",
         "connector"
     ],
-    "author": {
-        "name": "Drakerian"
-    },
+    "author": "Drakerian",
     "dependencies": {
         "async": "^0.9.0",
         "elasticsearch": "^2.4.3",
         "loopback-connector": "^1.1.1"
-    }
+    },
+    "directories": {
+        "example": "examples",
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/drakerian/loopback-connector-elastic-search.git"
+    },
+    "license": {
+        "name": "MIT",
+        "url": "https://github.com/drakerian/loopback-connector-elastic-search/blob/master/LICENCE"
+    },
+    "bugs": {
+        "url": "https://github.com/drakerian/loopback-connector-elastic-search/issues"
+    },
+    "homepage": "https://github.com/drakerian/loopback-connector-elastic-search"
 }
