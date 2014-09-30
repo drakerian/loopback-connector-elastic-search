@@ -62,6 +62,10 @@ Create model (see **/examples/entry.json**):
 
     slc loopback:model entry
 
+## Install connector from NPM
+
+    npm install loopback-connector-elastic-search --save
+
 ## Configuring elastic connector
 Edit **datasources.json** and set:
 
@@ -69,7 +73,7 @@ Edit **datasources.json** and set:
         "host": [127.0.0.1],
         "port": [9200],
         "name": [Name],
-        "connector": "elasticsearch",
+        "connector": "elastic-search",
         ...
         "log": "trace",
         "defaultSize": [Rows],
