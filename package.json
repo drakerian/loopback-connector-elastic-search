@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-elastic-search",
-  "version": "0.0.2",
+  "version": "0.0.2a",
   "description": "Connect LoopBack to Elasticsearch engine",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,6 @@
     "connector"
   ],
   "author": "Drakerian",
-  "readme": "# This is my README\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
