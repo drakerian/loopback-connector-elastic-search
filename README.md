@@ -108,7 +108,7 @@ Open browse, and set in URL:
 
     http://localhost:3000/explorer
 
-To test a specific filter, use for example in GET method:
+To test a specific filter in GET method, use for example:
     
     {"q" : "friends, romans, countrymen"}
 

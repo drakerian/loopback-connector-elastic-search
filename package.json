@@ -1,37 +1,45 @@
 {
-    "name": "loopback-connector-elastic-search",
-    "version": "0.0.1b",
-    "description": "Connect LoopBack to Elasticsearch engine",
-    "main": "index.js",
-    "scripts": {
-        "test": "test"
-    },
-    "keywords": [
-        "loopback",
-        "elastic",
-        "loopback-connector",
-        "connector"
-    ],
-    "author": "Drakerian",
-    "dependencies": {
-        "async": "^0.9.0",
-        "elasticsearch": "^2.4.3",
-        "loopback-connector": "^1.1.1"
-    },
-    "directories": {
-        "example": "examples",
-        "test": "test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/drakerian/loopback-connector-elastic-search.git"
-    },
-    "license": {
-        "name": "MIT",
-        "url": "https://github.com/drakerian/loopback-connector-elastic-search/blob/master/LICENCE"
-    },
-    "bugs": {
-        "url": "https://github.com/drakerian/loopback-connector-elastic-search/issues"
-    },
-    "homepage": "https://github.com/drakerian/loopback-connector-elastic-search"
+  "name": "loopback-connector-elastic-search",
+  "version": "0.0.2",
+  "description": "Connect LoopBack to Elasticsearch engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "loopback",
+    "elastic",
+    "loopback-connector",
+    "connector"
+  ],
+  "author": "Drakerian",
+  "readme": "# This is my README\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drakerian/loopback-connector-elastic-search.git"
+  },
+  "license": {
+    "name": "MIT",
+    "url": "https://github.com/drakerian/loopback-connector-elastic-search/blob/master/LICENCE"
+  },
+  "bugs": {
+    "url": "https://github.com/drakerian/loopback-connector-elastic-search/issues"
+  },
+  "homepage": "https://github.com/drakerian/loopback-connector-elastic-search",
+  "dependencies": {
+    "async": "^0.9.0",
+    "elasticsearch": "^2.4.3",
+    "loopback-connector": "^1.1.1"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.12.1",
+    "mocha": "^1.21.4"
+  }
 }

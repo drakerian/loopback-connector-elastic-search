@@ -1,3 +1,9 @@
 0.0.1 2014-09-30
 ----------------
 - First version
+
+0.0.2 2014-10-01
+----------------
+- Add grunt, mocha and chai to depends.
+- Add unit test.
+- Correct some code comments and texts

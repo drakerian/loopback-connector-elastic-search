@@ -1,1 +1,1 @@
-module.exports = require('./lib/elastic');
+module.exports = require('./lib/esConnector');

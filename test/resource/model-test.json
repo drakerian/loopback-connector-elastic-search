@@ -1,0 +1,26 @@
+{
+    "name": "entry",
+    "plural": "entries",
+    "properties": {
+        "play_name": {
+            "type": "string"
+        },
+        "speech_number": {
+            "type": "number"
+        },
+        "line_number": {
+            "type": "string",
+            "required": true
+        },
+        "speaker": {
+            "type": "string"
+        },
+        "test_object": {
+            "type": "object"
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": []
+}
