@@ -2,6 +2,14 @@
 
 Basic Elasticsearch datasource connector for [Loopback](http://strongloop.com/node-js/loopback/).
 
+This connector have difference with the original. You can have one specific Type by model. 
+The original you can only have one index and one type configured from settings. This module can still have only one index but you can have for etch model one Type.
+
+Exemple :
+
+Loopback Model Music  ==>  Elasticsearch Type = Music
+
+
 ## Setting up Elasticsearch
 - Download and install [Elasticsearch](http://www.elasticsearch.org)
 - Goto /elasticsearch-path/bin$ and execute ./elasticsearch
@@ -78,7 +86,7 @@ Edit **datasources.json** and set:
         "log": "trace",
         "defaultSize": [Rows],
         "index": [IndexName],
-        "type": [TypeName]
+        // "type": [TypeName]  // I remove this line because it will fix to only one type.
     }
     
 Required:
